@@ -10,7 +10,7 @@ namespace Tetris
     {
         Point[] points = new Point[4];
 
-        public Stick(int x, int y, int sym)
+        public Stick(int x, int y, char sym)
         {
             points[0] = new Point(x, y, sym);
             points[1] = new Point(x, y + 1, sym);
@@ -25,6 +25,5 @@ namespace Tetris
                 p.Draw();
             }
         }
-
     }
 }

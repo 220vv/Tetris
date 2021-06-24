@@ -12,8 +12,8 @@ namespace Tetris
             Square s = new Square(2, 5, '*');
             s.Draw();
 
-            Point p1 = new Point(2, 3, '*');
-            p1.Draw();
+            Stick stick = new Stick(6, 6, '*');
+            stick.Draw();
 
             Point p2 = new Point()
             {
